@@ -15,7 +15,7 @@ from kivy.core.window import Window
 from gradient import *
 
 # registering our new custom fontstyle
-LabelBase.register(name='SF-Pro', fn_regular='../Font/SF-Pro.ttf')
+LabelBase.register(name='SF-Pro', fn_regular='font/Montserrat-Medium.ttf')
 
 Builder.load_file('piplayer.kv')
 
